@@ -1,0 +1,71 @@
+body {
+    width: 190px;
+    background-color: #F8F8FF; /*  Ghost white  */
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: -2px;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border-top: 1px dashed lightgray;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+}
+
+/* BUTTONS */
+.buttons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+#pass {
+   color: white;
+   background-color: #16A085; /*  Mountain Medaow */
+   padding: 5px;
+   border-radius: 4px;
+}
+
+#pass:hover {
+    background-color: #26C281; /*  Jungle Green */
+}
+
+#fail {
+    color: white;
+    background-color: #CF000F; /*  Monza  */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#fail:hover {
+    background-color: #F22613; /*  Pomegranate  */
+}
+
+#unexecute {
+    background-color: #BFBFBF; /*  Silver  */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#unexecute:hover {
+    background-color: #D2D7D3; /*  Pumice  */
+}
+
+#pass:active,
+#fail:active,
+#unexecute:active
+{
+  border: 1px #000000 solid;
+}
